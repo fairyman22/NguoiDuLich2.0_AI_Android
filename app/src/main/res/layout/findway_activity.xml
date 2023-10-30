@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Graph"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/graph"
+        android:gravity="center"
+        android:textSize="18dp"
+
+        android:textStyle="italic"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/graphContainer"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </GridLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Best Way"
+        android:textSize="25dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestWay"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nhập lại"
+        android:textSize="20dp"
+        android:id="@+id/btnReturn"/>
+
+
+</LinearLayout>
